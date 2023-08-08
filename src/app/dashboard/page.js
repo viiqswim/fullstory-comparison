@@ -1,13 +1,13 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from '../page.module.css'
 import Link from 'next/link'
 
-export default function Home() {
+export default function Dashboard() {
   return (
     <main className={styles.main}>
       <div className={styles.description}>
         <p>
-          This is the home page
+          This is the dashboard
         </p>
         <ul>
           <Link href="/">Home</Link>
